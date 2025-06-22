@@ -1,0 +1,190 @@
+/* stylelint-disable no-duplicate-selectors */
+
+/* Primitive colors */
+:root {
+  /* Mode */
+
+  /* color */
+  --cricket-color-black-alpha-0: #0000;
+  --cricket-color-black-alpha-100: #000;
+  --cricket-color-black-alpha-60: #0009;
+  --cricket-color-blue-100: #bbddfd;
+  --cricket-color-blue-200: #8ec9fc;
+  --cricket-color-blue-300: #61b5fb;
+  --cricket-color-blue-400: #3da5fa;
+  --cricket-color-blue-50: #e3f0fe;
+  --cricket-color-blue-500: #1d7ef8;
+  --cricket-color-blue-600: #176ada;
+  --cricket-color-blue-700: #1356bc;
+  --cricket-color-blue-800: #0f439e;
+  --cricket-color-blue-900: #0a3380;
+  --cricket-color-blue-950: #061e4c;
+  --cricket-color-blue-alpha-12: #1d7ef81f;
+  --cricket-color-blue-alpha-24: #1d7ef83d;
+  --cricket-color-blue-alpha-48: #1d7ef87a;
+  --cricket-color-blue-alpha-64: #1d7ef8a3;
+  --cricket-color-green-100: #a3f7a9;
+  --cricket-color-green-200: #72e985;
+  --cricket-color-green-300: #4dd470;
+  --cricket-color-green-400: #1cb854;
+  --cricket-color-green-50: #d2fbd0;
+  --cricket-color-green-500: #149e53;
+  --cricket-color-green-600: #0e8450;
+  --cricket-color-green-700: #086a49;
+  --cricket-color-green-800: #055843;
+  --cricket-color-green-900: #044837;
+  --cricket-color-green-950: #033025;
+  --cricket-color-green-alpha-12: #1cb8541f;
+  --cricket-color-green-alpha-24: #1cb8543d;
+  --cricket-color-green-alpha-48: #1cb8547a;
+  --cricket-color-green-alpha-64: #1cb854a3;
+  --cricket-color-grey-100: #f1f5f9;
+  --cricket-color-grey-200: #e2e8f0;
+  --cricket-color-grey-300: #cbd5e1;
+  --cricket-color-grey-400: #94a3b8;
+  --cricket-color-grey-50: #f8fafc;
+  --cricket-color-grey-500: #64748b;
+  --cricket-color-grey-600: #475569;
+  --cricket-color-grey-700: #334155;
+  --cricket-color-grey-800: #1e293b;
+  --cricket-color-grey-900: #0f172a;
+  --cricket-color-grey-950: #080c17;
+  --cricket-color-orange-100: #ffe4ab;
+  --cricket-color-orange-200: #ffd181;
+  --cricket-color-orange-300: #ffbe62;
+  --cricket-color-orange-400: #ffa02e;
+  --cricket-color-orange-50: #fff3d5;
+  --cricket-color-orange-500: #db7e21;
+  --cricket-color-orange-600: #b75f17;
+  --cricket-color-orange-700: #93450e;
+  --cricket-color-orange-800: #7a3108;
+  --cricket-color-orange-900: #602706;
+  --cricket-color-pink-100: #feacad;
+  --cricket-color-pink-200: #fd838f;
+  --cricket-color-pink-300: #fb6382;
+  --cricket-color-pink-400: #f9316d;
+  --cricket-color-pink-50: #fed9d5;
+  --cricket-color-pink-500: #d6236a;
+  --cricket-color-pink-600: #b31865;
+  --cricket-color-pink-700: #900f5c;
+  --cricket-color-pink-800: #770955;
+  --cricket-color-pink-900: #5f0743;
+  --cricket-color-pink-950: #390428;
+  --cricket-color-pink-alpha-12: #f9316d1f;
+  --cricket-color-pink-alpha-24: #f9316d3d;
+  --cricket-color-pink-alpha-48: #f9316d7a;
+  --cricket-color-pink-alpha-64: #f9316da3;
+  --cricket-color-white-alpha-0: #fff0;
+  --cricket-color-white-alpha-100: #fff;
+  --cricket-color-white-alpha-12: #ffffff1f;
+  --cricket-color-white-alpha-24: #ffffff3d;
+}
+
+/* Semantic colors */
+:root {
+  /* Mode */
+
+  /* color */
+  --cricket-color-bg-bg: var(--cricket-color-black-alpha-100, #000);
+  --cricket-color-bg-fill-accent: var(--cricket-color-blue-500, #1d7ef8);
+  --cricket-color-bg-fill-accent-hover: var(--cricket-color-blue-400, #3da5fa);
+  --cricket-color-bg-fill-accent-subtle: var(--cricket-color-blue-900, #0a3380);
+  --cricket-color-bg-fill-accent-subtle-hover: var(--cricket-color-blue-800, #0f439e);
+  --cricket-color-bg-fill-disabled: var(--cricket-color-grey-900, #0f172a);
+  --cricket-color-bg-fill-negative: var(--cricket-color-pink-400, #f9316d);
+  --cricket-color-bg-fill-negative-hover: var(--cricket-color-pink-300, #fb6382);
+  --cricket-color-bg-fill-positive: var(--cricket-color-green-400, #1cb854);
+  --cricket-color-bg-fill-positive-hover: var(--cricket-color-green-300, #4dd470);
+  --cricket-color-bg-fill-primary: var(--cricket-color-grey-800, #1e293b);
+  --cricket-color-bg-fill-primary-hover: var(--cricket-color-grey-600, #475569);
+  --cricket-color-bg-fill-secondary: var(--cricket-color-grey-900, #0f172a);
+  --cricket-color-bg-fill-secondary-hover: var(--cricket-color-grey-800, #1e293b);
+  --cricket-color-bg-fill-tertiary: var(--cricket-color-grey-950, #080c17);
+  --cricket-color-bg-fill-warning-subtle: var(--cricket-color-orange-900, #602706);
+  --cricket-color-bg-fill-warning-subtle-hover: var(--cricket-color-orange-800, #7a3108);
+  --cricket-color-bg-surface-positive: var(--cricket-color-green-400, #1cb854);
+  --cricket-color-bg-surface-positive-subtle: var(--cricket-color-green-900, #044837);
+  --cricket-color-bg-surface-primary: var(--cricket-color-grey-800, #1e293b);
+  --cricket-color-bg-surface-secondary: var(--cricket-color-grey-900, #0f172a);
+  --cricket-color-border-accent: var(--cricket-color-blue-600, #176ada);
+  --cricket-color-border-primary: var(--cricket-color-grey-600, #475569);
+  --cricket-color-border-primary-disabled: var(--cricket-color-grey-700, #334155);
+  --cricket-color-border-primary-selected: var(--cricket-color-blue-400, #3da5fa);
+  --cricket-color-border-secondary: var(--cricket-color-grey-800, #1e293b);
+  --cricket-color-border-positive: var(--cricket-color-green-500, #149e53);
+  --cricket-color-border-negative: var(--cricket-color-pink-500, #d6236a);
+  --cricket-color-icon-accent: var(--cricket-color-blue-400, #3da5fa);
+  --cricket-color-icon-accent-hover: var(--cricket-color-blue-200, #8ec9fc);
+  --cricket-color-icon-disabled: var(--cricket-color-grey-500, #64748b);
+  --cricket-color-icon-positive: var(--cricket-color-green-400, #1cb854);
+  --cricket-color-icon-positive-subtle: var(--cricket-color-green-900, #044837);
+  --cricket-color-icon-negative: var(--cricket-color-pink-300, #fb6382);
+  --cricket-color-icon-primary: var(--cricket-color-white-alpha-100, #fff);
+  --cricket-color-icon-secondary: var(--cricket-color-grey-300, #cbd5e1);
+  --cricket-color-icon-secondary-hover: var(--cricket-color-white-alpha-100, #fff);
+  --cricket-color-icon-warning: var(--cricket-color-orange-300, #ffbe62);
+  --cricket-color-text-accent: var(--cricket-color-blue-300, #61b5fb);
+  --cricket-color-text-accent-dark: var(--cricket-color-blue-950, #061e4c);
+  --cricket-color-text-disabled: var(--cricket-color-grey-500, #64748b);
+  --cricket-color-text-negative: var(--cricket-color-pink-100, #feacad);
+  --cricket-color-text-negative-dark: var(--cricket-color-pink-950, #390428);
+  --cricket-color-text-positive: var(--cricket-color-green-300, #4dd470);
+  --cricket-color-text-positive-dark: var(--cricket-color-green-950, #033025);
+  --cricket-color-text-primary: var(--cricket-color-white-alpha-100, #fff);
+  --cricket-color-text-secondary: var(--cricket-color-grey-300, #cbd5e1);
+  --cricket-color-text-tertiary: var(--cricket-color-grey-400, #94a3b8);
+  --cricket-color-text-warning: var(--cricket-color-orange-300, #ffbe62);
+  --cricket-color-utilities-overlay: var(--cricket-color-black-alpha-60, #0009);
+}
+
+/* Semantic colors */
+:root {
+  /* Mode */
+
+  /* box-shadow */
+  --cricket-shadow-coefficient-red-glow:
+    0px 0px 12px 0px var(--cricket-color-pink-300, #fb6382),
+    0px 0px 20px 0px var(--cricket-color-pink-400, #f9316d);
+  --cricket-shadow-notification-win-glow:
+    1px 1px 2px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-green-alpha-12, rgb(28 184 84 / 12%)),
+    0px 16px 20px -8px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%));
+  --cricket-shadow-bet-btn-glow:
+    1px 1px 2px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-blue-alpha-24, rgb(29 126 248 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-blue-alpha-24, rgb(29 126 248 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-blue-alpha-12, rgb(29 126 248 / 12%)),
+    0px 16px 20px -8px var(--cricket-color-blue-alpha-24, rgb(29 126 248 / 24%));
+  --cricket-shadow-bet-btn-glow-hover:
+    0px 0px 0px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-blue-alpha-24, rgb(29 126 248 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-blue-alpha-24, rgb(29 126 248 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-blue-alpha-12, rgb(29 126 248 / 12%)),
+    0px 20px 40px -8px var(--cricket-color-blue-alpha-48, rgb(29 126 248 / 48%));
+  --cricket-shadow-bet-btn-cancel-glow:
+    1px 1px 2px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-pink-alpha-24, rgb(249 49 109 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-pink-alpha-24, rgb(249 49 109 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-pink-alpha-12, rgb(249 49 109 / 12%)),
+    0px 16px 20px -8px var(--cricket-color-pink-alpha-24, rgb(249 49 109 / 24%));
+  --cricket-shadow-bet-btn-cancel-glow-hover:
+    0px 0px 0px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-pink-alpha-24, rgb(249 49 109 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-pink-alpha-24, rgb(249 49 109 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-pink-alpha-12, rgb(249 49 109 / 12%)),
+    0px 20px 40px -8px var(--cricket-color-pink-alpha-48, rgb(249 49 109 / 48%));
+  --cricket-shadow-bet-btn-cashout-glow:
+    1px 1px 2px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-green-alpha-12, rgb(28 184 84 / 12%)),
+    0px 16px 20px -8px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%));
+  --cricket-shadow-bet-btn-cashout-glow-hover:
+    0px 0px 0px 0px var(--cricket-color-white-alpha-24, rgb(255 255 255 / 24%)) inset,
+    0px 1px 3px 0px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%)),
+    0px 2px 6px 0px var(--cricket-color-green-alpha-24, rgb(28 184 84 / 24%)),
+    0px 4px 8px 0px var(--cricket-color-green-alpha-12, rgb(28 184 84 / 12%)),
+    0px 20px 40px -8px var(--cricket-color-green-alpha-48, rgb(28 184 84 / 48%));
+}

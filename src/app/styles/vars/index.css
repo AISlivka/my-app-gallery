@@ -1,0 +1,43 @@
+:root {
+  /* Font sizes. */
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 40px;
+  --font-size-4xl: 56px;
+  --font-size-5xl: 96px;
+
+  /* Font letter spacing */
+  --letter-spacing-xs: 2px;
+
+  /* Font line height */
+  --line-height-xs: 14px;
+  --line-height-sm: 16px;
+  --line-height-md: 18px;
+  --line-height-lg: 20px;
+  --line-height-xl: 24px;
+  --line-height-2xl: 28px;
+  --line-height-3xl: 40px;
+  --line-height-4xl: 56px;
+  --line-height-5xl: 96px;
+
+  /* Font family */
+  --font-inter: 'Inter', 'Arial', 'Helvetica', 'sans-serif';
+
+  /* z-index */
+  --z-index-less-than-others: -1;
+  --z-index-simple: 1;
+  --z-index-sticky: 3;
+  --z-index-animation: 5;
+  --z-index-medium: 10;
+  --z-index-overlay: 10;
+  --z-index-modal: 11;
+  --z-index-round-preview-popup: 12;
+  --z-index-notification: 20;
+
+  /* width */
+  --width-bet-history-desktop: 320px;
+}

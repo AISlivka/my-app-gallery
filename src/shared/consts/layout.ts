@@ -1,0 +1,1 @@
+export const APP_CONTENT_DESKTOP_SPACING = 20;

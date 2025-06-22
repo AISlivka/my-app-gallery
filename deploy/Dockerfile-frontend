@@ -1,0 +1,6 @@
+FROM nexus.sportlevel-mc.com/sportlevel_docker/nginx/nginx:1.27.1-bookworm
+
+WORKDIR /var/www/neon-cricket.sl-dev-stage.com
+
+# Копирование файлов
+COPY dist /var/www/neon-cricket.sl-dev-stage.com

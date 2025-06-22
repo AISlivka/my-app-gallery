@@ -1,0 +1,8 @@
+FROM nexus.sportlevel-mc.com/sportlevel_docker/nginx/nginx:1.27.1-bookworm
+
+WORKDIR /var/www/neon-cricket.sl-dev-stage.com
+
+ARG CI_COMMIT_BRANCH
+COPY dist /var/www/neon-cricket.sl-dev-stage.com/${CI_COMMIT_BRANCH}
+
+

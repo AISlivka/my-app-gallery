@@ -1,0 +1,23 @@
+/* SCROLLBAR */
+.hide-scrollbar {
+  -webkit-overflow-scrolling: touch;
+
+  /* noinspection CssInvalidPropertyValue */
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  width: 0;
+  display: none;
+  scrollbar-width: none;
+}
+
+.skeleton-item {
+  background-color: var(--cricket-color-grey-800);
+  border-radius: var(--radius-xs);
+  width: 100%;
+  height: 100%;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

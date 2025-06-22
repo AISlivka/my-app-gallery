@@ -1,0 +1,22 @@
+@import url('reset');
+@import url('animation');
+@import url('vars');
+@import url('helpers');
+@import url('spacing');
+@import url('colors');
+@import url('transitions');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  touch-action: manipulation;
+}

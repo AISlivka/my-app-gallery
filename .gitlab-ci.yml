@@ -1,0 +1,17 @@
+pre:
+  stage: .pre
+  image: '$DOCKER_IMAGE/$RUNNER_BASED'
+  script:
+    -  echo "Start pipeline"
+  tags:
+    - kuber-runner
+
+include:
+  - local: deploy/templates/.gitlab-ci-kuber.yml
+    rules:
+      - if: $CI_COMMIT_BRANCH == "dev"
+#      - if: $CI_COMMIT_BRANCH == "dev-kuber"
+      - if: $CI_COMMIT_BRANCH =~ /feature*/
+#  - local: deploy/templates/.gitlab-ci-fon.yml
+#    rules:
+#      - if: $CI_COMMIT_BRANCH == "release"
